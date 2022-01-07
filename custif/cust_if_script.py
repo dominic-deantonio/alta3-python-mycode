@@ -10,7 +10,7 @@ luminosity = float(input("Enter luminosity between 0.01 and 100,000 and I will t
 
 spectral_type = 'O'
 
-# if input value was higher or equal to 25
+# Check the user's input value
 if luminosity >= 100000:
     spectral_type = 'O'
 elif luminosity >= 1000:
